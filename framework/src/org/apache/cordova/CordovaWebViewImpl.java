@@ -197,7 +197,7 @@ public class CordovaWebViewImpl implements CordovaWebView {
 
     @Override
     public void loadUrl(String url) {
-        loadUrlIntoView(url, true);
+        loadUrlIntoView(url, false);
     }
 
     @Override
